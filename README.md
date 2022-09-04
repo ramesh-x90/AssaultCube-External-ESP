@@ -1,2 +1,2 @@
 # AssaultCube-External-ESP
-purpose of this project is to learn game hacking (External).
+The purpose of this project is to learn game hacking (External).
