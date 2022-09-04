@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ProcessManager">
+      <UniqueIdentifier>{d696cac9-8929-40ec-bc47-7d8a29b9dda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EntityList">
+      <UniqueIdentifier>{b6d18457-d9ab-497a-b0dc-dc9368c5c187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ESP">
+      <UniqueIdentifier>{a89d9082-7470-4f9f-be5d-8add84ad61ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MemoryManager">
+      <UniqueIdentifier>{92be1e22-7990-447d-b891-c0b779964620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Offsets">
+      <UniqueIdentifier>{dcd57983-c4ae-4372-9f86-688208ca139f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OverlayWindow">
+      <UniqueIdentifier>{9353f5e7-603f-4451-a709-dd5c8598628d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{60f67da6-6655-4325-83f5-5bf7fed5f621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WindowManager">
+      <UniqueIdentifier>{d85b2b59-4de1-49ff-a08c-68e277d7f1ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pch">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{7a1af6eb-c9be-49e8-97a8-f80b5648b88d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geometry">
+      <UniqueIdentifier>{b9907655-1d51-4893-a5ca-6b030dab2d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MvpMatrix">
+      <UniqueIdentifier>{05268d82-b5cf-45c9-98a0-62cedc6ad30f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Esp.cpp">
+      <Filter>Source Files\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="entityList.cpp">
+      <Filter>Source Files\EntityList</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessManager.cpp">
+      <Filter>Source Files\ProcessManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManager.cpp">
+      <Filter>Source Files\MemoryManager</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManager.cpp">
+      <Filter>Source Files\WindowManager</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlayWindow.cpp">
+      <Filter>Source Files\OverlayWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>Source Files\Offsets</Filter>
+    </ClCompile>
+    <ClCompile Include="firstExternalTrainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="MvpMatrix.cpp">
+      <Filter>Source Files\MvpMatrix</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Source Files\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Esp.h">
+      <Filter>Source Files\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="entityList.h">
+      <Filter>Source Files\EntityList</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Source Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStructs.h">
+      <Filter>Source Files\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessManager.h">
+      <Filter>Source Files\ProcessManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManager.h">
+      <Filter>Source Files\MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowManager.h">
+      <Filter>Source Files\WindowManager</Filter>
+    </ClInclude>
+    <ClInclude Include="OverlayWindow.h">
+      <Filter>Source Files\OverlayWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Source Files\Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Source Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="MvpMatrix.h">
+      <Filter>Source Files\MvpMatrix</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
